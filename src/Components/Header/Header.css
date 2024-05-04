@@ -1,0 +1,37 @@
+.nav-bar {
+    height: 5rem;
+}
+
+.church-name-small {
+    display: none;
+}
+
+.links {
+    margin-left: 15rem;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+
+    .nav-bar {
+        height: auto;
+    }
+
+    .church-name {
+        display: none;
+    }
+
+    .church-name-small {
+        display: block;
+    }
+
+    .links {
+        text-align: start;
+        margin: 1rem 2rem;
+    }
+
+}

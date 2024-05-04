@@ -1,0 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(45deg, #8259db33, #2cc0e233, #b667b533), linear-gradient(180deg, #143d95, #4161b9, #5b90dc);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-attachment: fixed;
+}
