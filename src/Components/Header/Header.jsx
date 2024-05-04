@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/mcclogo.png'
@@ -16,13 +15,13 @@ function Header() {
             src={logo}
             width="30"
             height="30"
-            className="d-inline-block align-top ms-4 me-3"
+            className="d-inline-block align-top ms-3 me-1"
             alt="React Bootstrap logo"
           />
-          <h5 className="church-name text-light">St.Mary's Malankara Catholic Church Chettukuzhy</h5>
-          <h6 className="church-name-small text-light mt-1">St.Mary's Church Chettukuzhy</h6>
+          <h5 className="church-name ">St.Mary's Malankara Catholic Church Chettukuzhy</h5>
+          <p className="church-name-small  mt-1">St.Mary's Church Chettukuzhy</p>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-3'/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className=''/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto links">
             <Link to={'/'} className='nav-link me-3'>HOME</Link>

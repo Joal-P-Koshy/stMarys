@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: whitesmoke;
 }
 
 .imgs-quotes {
@@ -38,6 +37,7 @@
 
 .para-1 {
     text-align: justify;
+    font-size: 1rem;
 }
 
 
@@ -63,5 +63,9 @@
         margin-left: 0;
         font-size: 1rem;
         margin-top: 2rem;
+    }
+
+    .para-1 {
+        font-size: 0.8rem;
     }
 }

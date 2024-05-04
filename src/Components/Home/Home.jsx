@@ -31,7 +31,7 @@ function Home() {
 
                 <div className="contents">
                     <div className="head-1">
-                        <h4 className="">Introduction</h4>
+                        <h5 className="">Introduction</h5>
                     </div>
                     <div className="para-1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident necessitatibus sapiente
