@@ -14,13 +14,13 @@ function Mcym() {
       <div className="img-quote">
         <Carousel fade className="mcym-imgs ">
           <Carousel.Item interval={3000}>
-            <img src={mcym1} alt="church image" className='crsl-mcym' />
+            <img src={mcym1} alt="mcym image" className='crsl-mcym' />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img src={mcym1} alt="church image" className='crsl-mcym' />
+            <img src={mcym1} alt="mcym image" className='crsl-mcym' />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img src={mcym1} alt="church image" className='crsl-mcym' />
+            <img src={mcym1} alt="mcym image" className='crsl-mcym' />
           </Carousel.Item>
         </Carousel>
 
