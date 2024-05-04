@@ -31,8 +31,27 @@
     font-size: 0.8rem;
 }
 
-.exe-mem {
+.mem-img-wrap {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
 
+.mem-img {
+    width: 12rem;
+    height: 13rem;
+    border: 1px  solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mem-img img {
+    width: 5rem;
+    border-radius: 50%;
 }
 
 
@@ -60,5 +79,18 @@
         margin-left: 0;
         font-size: 1rem;
         margin-top: 2rem;
+    }
+
+    .mem-img img {
+        width: 4rem;
+    }
+
+    .mem-img {
+        height: 11rem;
+    }
+    
+    .mem-img-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

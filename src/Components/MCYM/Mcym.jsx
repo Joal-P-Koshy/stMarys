@@ -2,6 +2,7 @@ import React from 'react'
 import './Mcym.css'
 import Carousel from 'react-bootstrap/Carousel';
 import mcym1 from '../assets/mcym1.jpg'
+import user1 from '../assets/user1.jpg'
 
 
 function Mcym() {
@@ -49,10 +50,53 @@ function Mcym() {
           </p>
         </div>
 
+        <hr />
 
         <div className="exe-mem">
-          <h5 className="">Executive Members</h5>
-          
+          <h5 className="mt-3">Executive Members</h5>
+
+          <div className="mem-img-wrap">
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Albin Shiju</p>
+              <p className="">President</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Alisha Joseph</p>
+              <p className="">Secretary</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Alan Saiju</p>
+              <p className="">Vice-President</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Angel Elsa Varghese</p>
+              <p className="">Join-Secretary</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Dani Dibu</p>
+              <p className="">Treasurer </p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Jijo mangattethu</p>
+              <p className="">Animator</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Nibin Jose</p>
+              <p className="">Syndicate member</p>
+            </div>
+            <div className="mem-img">
+              <img src={user1} alt="mcym img" className='mt-3' />
+              <p className="mt-3">Bijina biju</p>
+              <p className="">Syndicate member</p>
+            </div>
+          </div>
         </div>
 
       </div>
