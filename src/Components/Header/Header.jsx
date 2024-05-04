@@ -18,7 +18,7 @@ function Header() {
             className="d-inline-block align-top ms-3 me-1"
             alt="React Bootstrap logo"
           />
-          <h5 className="church-name ">St.Mary's Malankara Catholic Church Chettukuzhy</h5>
+          <h5 className="church-name mt-1">St.Mary's Malankara Catholic Church Chettukuzhy</h5>
           <p className="church-name-small  mt-1">St.Mary's Church Chettukuzhy</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className=''/>
