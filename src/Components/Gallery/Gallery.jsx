@@ -3,7 +3,13 @@ import './Gallery.css'
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <>
+    <section id="gallery">
+    <div className="heading mb-4 mt-3">
+          <h4 className="text-center">Gallery</h4>
+        </div>
+    </section>
+    </>
   )
 }
 

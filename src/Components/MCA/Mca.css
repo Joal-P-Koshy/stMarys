@@ -1,0 +1,62 @@
+#mca {
+    width: 100%;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2rem;
+}
+
+.mca-img-quotes {
+    border-bottom: 1px solid #00000040;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+    gap: 3rem;
+}
+
+.mca-imgs {
+    width: 65%;
+}
+
+.quote-4 {
+    width: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* ////////////////////////////// */
+
+@media screen and (max-width:800px) {
+
+    #mca {
+        padding: 1rem;
+    }
+
+    .mca-img-quotes {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+        gap: 0;
+        
+    }
+
+    .mca-imgs {
+        width: 100%;
+    }
+
+    .crsl-img {
+        height: 15rem;
+    }
+
+    .quote-3 {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    
+}

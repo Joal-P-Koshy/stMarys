@@ -41,6 +41,7 @@ function Footer() {
                     <h6>Pages</h6>
                     <span className="pages-link">
                         <Link to='/' style={{ textDecoration: "none", color: "#352f36" }}>Home</Link>
+                        <Link to='/mca' style={{ textDecoration: "none", color: "#352f36" }}>MCA</Link>
                         <Link to='/mcym' style={{ textDecoration: "none", color: "#352f36" }}>MCYM</Link>
                         <Link to='/mccl' style={{ textDecoration: "none", color: "#352f36" }}>MCCL</Link>
                         <Link to='/gallery' style={{ textDecoration: "none", color: "#352f36" }}>Gallery</Link>

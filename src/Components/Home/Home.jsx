@@ -25,9 +25,9 @@ function Home() {
                     </Carousel>
 
                     <p className="quote-1">
-                    And I tell you, you are Peter, and on this rock I will build my church, 
-                    and the gates of hell shall not prevail against it. <br />
-                    (Matthew 16:18)
+                        And I tell you, you are Peter, and on this rock I will build my church,
+                        and the gates of hell shall not prevail against it. <br />
+                        (Matthew 16:18)
                     </p>
                 </div>
 
@@ -36,7 +36,7 @@ function Home() {
                     <Priest />
 
                     <History />
-                    
+
                 </div>
 
 
