@@ -4,6 +4,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useCollapse } from 'react-collapsed'
 import mcym1 from '../assets/mcym1.jpg'
 import user1 from '../assets/user1.jpg'
+import albinshiju from '../assets/albinshiju.jpg'
+import danidibu from '../assets/danidibu.png'
+import jijomangatteth from '../assets/jijomangatteth.jpg'
+import angel from '../assets/angel.jpg'
+import alishajoseph from '../assets/alishajoseph.jpg'
+import nibinjose from '../assets/nibinjose.jpg'
+import bijinabiju from '../assets/bijinabiju.jpg'
 
 
 function Mcym() {
@@ -81,12 +88,12 @@ function Mcym() {
 
           <div className="mem-img-wrap">
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={albinshiju} alt="mcym img" className='mt-3' />
               <p className="mt-3">Albin Shiju</p>
               <p className="">President</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={alishajoseph} alt="mcym img" className='mt-3' />
               <p className="mt-3">Alisha Joseph</p>
               <p className="">Secretary</p>
             </div>
@@ -96,27 +103,27 @@ function Mcym() {
               <p className="">Vice-President</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={angel} alt="mcym img" className='mt-3' />
               <p className="mt-3">Angel Elsa Varghese</p>
               <p className="">Join-Secretary</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={danidibu} alt="mcym img" className='mt-3' />
               <p className="mt-3">Dani Dibu</p>
               <p className="">Treasurer </p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={jijomangatteth} alt="mcym img" className='mt-3' />
               <p className="mt-3">Jijo mangattethu</p>
               <p className="">Animator</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={nibinjose} alt="mcym img" className='mt-3' />
               <p className="mt-3">Nibin Jose</p>
               <p className="">Syndicate member</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={bijinabiju} alt="mcym img" className='mt-3' />
               <p className="mt-3">Bijina biju</p>
               <p className="">Syndicate member</p>
             </div>

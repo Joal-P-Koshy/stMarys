@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Mcym from './Components/MCYM/Mcym';
 import Mccl from './Components/MCCL/Mccl';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
       <Route path='/mcym' element={ <Mcym /> }/>
       <Route path='/mccl' element={ <Mccl /> }/>
       </Routes>
+
+      <Footer />
     </>
   );
 }
