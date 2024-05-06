@@ -6,6 +6,7 @@ import Mcym from './Components/MCYM/Mcym';
 import Mccl from './Components/MCCL/Mccl';
 import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
+import Mca from './Components/MCA/Mca';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
 
       <Routes>
       <Route path='/' element={ <Home /> }/>
+      <Route path='/mca' element={ <Mca /> }/>
       <Route path='/mcym' element={ <Mcym /> }/>
       <Route path='/mccl' element={ <Mccl /> }/>
       <Route path='/gallery' element={ <Gallery /> }/>

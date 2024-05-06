@@ -2,11 +2,11 @@
     width: 100%;
     height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2rem;
 }
 
 .imgs-quotes {
     border-bottom: 1px solid #00000040;
-    padding: 2rem;
     margin: 1rem;
     display: flex;
     align-items: center;
