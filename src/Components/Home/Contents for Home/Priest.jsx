@@ -19,16 +19,16 @@ function Priest() {
 
                     <div className="fr-details">
                         <div className="name d-flex">
-                            <p className="w-50">Name : </p>
-                            <p className="w-100">Fr Rony Scaria</p>
+                            <p className="titles">Name : </p>
+                            <p className="title-txt">Fr Rony Scaria</p>
                         </div>
                         <div className="desig d-flex">
-                            <p className="w-50">Designated Church : </p>
-                            <p className="w-100">Chettukuzhy, Manthipara</p>
+                            <p className="titles">Designated Church : </p>
+                            <p className="title-txt">Chettukuzhy, Manthipara</p>
                         </div>
                         <div className="year d-flex">
-                            <p className="w-50">Year of Serviece : </p>
-                            <p className="w-100">2024 - Till now</p>
+                            <p className="titles">Year of Serviece : </p>
+                            <p className="title-txt">2024 - Till now</p>
                         </div>
                     </div>
 

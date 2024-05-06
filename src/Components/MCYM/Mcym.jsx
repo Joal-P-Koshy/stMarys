@@ -3,7 +3,6 @@ import './Mcym.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { useCollapse } from 'react-collapsed'
 import mcym1 from '../assets/mcym1.jpg'
-import user1 from '../assets/user1.jpg'
 import albinshiju from '../assets/albinshiju.jpg'
 import danidibu from '../assets/danidibu.png'
 import jijomangatteth from '../assets/jijomangatteth.jpg'
@@ -11,6 +10,7 @@ import angel from '../assets/angel.jpg'
 import alishajoseph from '../assets/alishajoseph.jpg'
 import nibinjose from '../assets/nibinjose.jpg'
 import bijinabiju from '../assets/bijinabiju.jpg'
+import alansaiju from '../assets/alansaiju.jpg'
 
 
 function Mcym() {
@@ -56,7 +56,6 @@ function Mcym() {
             The Catholic Youth Movement of Kerala dates back to the second half of the 1960s. Although there were some youth organisations in the parish level at different parts of Kerala, the spread of the organization of the youth movements in the diocesan took place rather late.
             <br />
 
-
             {
               isExpanded ? '' : (
                 <button className='expand' {...getToggleProps()}>read more...</button>
@@ -98,7 +97,7 @@ function Mcym() {
               <p className="">Secretary</p>
             </div>
             <div className="mem-img">
-              <img src={user1} alt="mcym img" className='mt-3' />
+              <img src={alansaiju} alt="mcym img" className='mt-3' />
               <p className="mt-3">Alan Saiju</p>
               <p className="">Vice-President</p>
             </div>

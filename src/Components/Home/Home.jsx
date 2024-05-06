@@ -5,12 +5,13 @@ import church from '../assets/church.jpg'
 import church2 from '../assets/church2.jpg'
 import church3 from '../assets/church3.jpg'
 import Priest from './Contents for Home/Priest';
+import History from './Contents for Home/History';
 
 function Home() {
     return (
         <>
             <section id="home">
-                <div className="imgs-quotes pb-5">
+                <div className="imgs-quotes">
                     <Carousel fade className="church-imgs ">
                         <Carousel.Item interval={3000}>
                             <img src={church} alt="church image" className='crsl-img' />
@@ -33,6 +34,8 @@ function Home() {
                 <div className="contents">
 
                     <Priest />
+
+                    <History />
                     
                 </div>
 

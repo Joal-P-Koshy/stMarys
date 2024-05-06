@@ -10,6 +10,8 @@
     margin: 1rem;
     display: flex;
     align-items: center;
+    padding-bottom: 3rem;
+    gap: 3rem;
 }
 
 .church-imgs {
@@ -24,7 +26,6 @@
 
 .quote-1 {
     width: 60%;
-    margin-left: 2rem;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
@@ -43,11 +44,16 @@
 
 @media screen and (max-width:800px) {
 
+    #home {
+        padding: 1rem;
+    }
+
     .imgs-quotes {
         display: flex;
         flex-direction: column;
         padding: 1rem;
         margin: 0;
+        
     }
 
     .church-imgs {
