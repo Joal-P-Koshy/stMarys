@@ -1,4 +1,6 @@
-#mcym {}
+#mcym {
+    padding: 0 2rem;
+}
 
 .img-quote{
     border-bottom: 1px solid #00000040;
@@ -31,6 +33,13 @@
     font-size: 0.8rem;
 }
 
+.expand {
+    border: none;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
 .mem-img-wrap {
     display: flex;
     gap: 1rem;
@@ -55,9 +64,15 @@
 }
 
 
+
+
 /* ////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width:800px) {
+
+    #mcym {
+        padding: 0 1rem;
+    }
 
     .img-quote {
         display: flex;
@@ -87,10 +102,12 @@
 
     .mem-img {
         height: 11rem;
+        width: 10rem;
     }
-    
+
     .mem-img-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 0 1rem;
     }
 }
