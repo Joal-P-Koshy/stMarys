@@ -1,0 +1,126 @@
+#footer {
+    width: 100%;
+    display: grid;
+    padding: 0 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    'logo map pages guide'
+    'copyright copyright copyright copyright';
+    gap: 1rem;
+    text-align: center;
+}
+
+.footer-line {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 4rem auto;
+}
+
+.mcclogo-address {
+    width: 100%;
+    grid-area: logo;
+    display: flex;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 1rem;
+}
+
+.mcclogo-address p {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.pages {
+    grid-area: pages;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.pages-link {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.guides {
+    grid-area: guide;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 2rem;
+}
+
+.guides-link {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    grid-area: map;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0 1rem;
+}
+
+
+
+.copyrights {
+    grid-area: copyright;
+    padding: 1.5rem 1rem;
+    opacity: 50%;
+}
+
+
+/* //////////////////////////////////////////////////////// */
+
+@media screen and (max-width:800px) {
+
+    .footer-line {
+        margin: 2rem auto;
+        border: 1px solid;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .mcclogo-address {
+        border: none;
+    }
+
+    .pages {
+        border: none;
+    }
+
+    .pages-link {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .guides {
+        border: none;
+    }
+
+    .guides-link {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .map {
+        border: none;
+    }
+
+    .copyrights {
+        padding: 0.6rem;
+    }
+
+}

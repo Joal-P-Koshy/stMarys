@@ -16,7 +16,7 @@ function Header() {
             width="30"
             height="30"
             className="d-inline-block align-top ms-3 me-1"
-            alt="React Bootstrap logo"
+            alt="mcc logo"
           />
           <h5 className="church-name mt-1">St.Mary's Malankara Catholic Church Chettukuzhy</h5>
           <p className="church-name-small  mt-1">St.Mary's Church Chettukuzhy</p>
@@ -25,10 +25,9 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto links">
             <Link to={'/'} className='nav-link me-3'>HOME</Link>
-            <Link to={'/mma'} className='nav-link me-3'>MMA</Link>
-            <Link to={'/mca'} className='nav-link me-3'>MCA</Link>
             <Link to={'/mcym'} className='nav-link me-3'>MCYM</Link>
             <Link to={'/mccl'} className='nav-link me-3'>MCCL</Link>
+            <Link to={'/gallery'} className='nav-link me-3'>Gallery</Link>
             
           </Nav>
         </Navbar.Collapse>
