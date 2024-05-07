@@ -3,6 +3,7 @@ import './Mcym.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { useCollapse } from 'react-collapsed'
 import mcym1 from '../assets/mcym1.jpg'
+import mcym2 from '../assets/mcym2.jpg'
 import albinshiju from '../assets/albinshiju.jpg'
 import danidibu from '../assets/danidibu.png'
 import jijomangatteth from '../assets/jijomangatteth.jpg'
@@ -29,7 +30,7 @@ function Mcym() {
             <img src={mcym1} alt="mcym image" className='crsl-mcym' />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img src={mcym1} alt="mcym image" className='crsl-mcym' />
+            <img src={mcym2} alt="mcym image" className='crsl-mcym' />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img src={mcym1} alt="mcym image" className='crsl-mcym' />

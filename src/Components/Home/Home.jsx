@@ -6,6 +6,8 @@ import church2 from '../assets/church2.jpg'
 import church3 from '../assets/church3.jpg'
 import Priest from './Contents for Home/Priest';
 import History from './Contents for Home/History';
+import PastVicar from './Contents for Home/Past vicar & sis/PastVicar';
+import PastSister from './Contents for Home/Past vicar & sis/PastSister';
 
 function Home() {
     return (
@@ -36,6 +38,10 @@ function Home() {
                     <Priest />
 
                     <History />
+
+                    <PastVicar />
+
+                    <PastSister />
 
                 </div>
 

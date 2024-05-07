@@ -41,7 +41,7 @@
 .expand {
     border: none;
     font-size: 0.8rem;
-    padding: 5px;
+    padding: 10px;
     border-radius: 1rem;
 }
 
@@ -89,7 +89,7 @@
     }
 
     .crsl-mcym {
-        height: 15rem;
+        height: 13rem;
     }
 
     .quote-2 {
